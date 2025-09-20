@@ -5,7 +5,11 @@ import Hero from '../Hero';
 import About from '../About';
 import Services from '../Services';
 import Fruits from '../Fruits';
+import Markets from '../Markets';
+import Technology from '../Technology';
+import FAQ from '../FAQ';
 import Contact from '../Contact';
+import Footer from '../Footer';
 
 const Layout: React.FC = () => {
   return (
@@ -17,14 +21,13 @@ const Layout: React.FC = () => {
         <About />
         <Services />
         <Fruits />
+        <Markets />
+        <Technology />
+        <FAQ />
         <Contact />
       </main>
 
-      <footer className="bg-gray-900 text-white py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p>© 2024 Prime Quality SpA. Todos los derechos reservados.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
