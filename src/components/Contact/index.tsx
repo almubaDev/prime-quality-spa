@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Cobertura Geográfica</h4>
-                    <p className="text-gray-600">Regiones de Valparaíso, Metropolitana y O'Higgins</p>
+                    <p className="text-gray-600">Regiones de Valparaíso, Metropolitana y O&apos;Higgins</p>
                   </div>
                 </div>
 

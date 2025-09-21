@@ -2,12 +2,6 @@
 import React from 'react';
 
 const About: React.FC = () => {
-  const stats = [
-    { number: '10+', label: 'Años de experiencia' },
-    { number: '5', label: 'Tipos de frutas' },
-    { number: '3', label: 'Regiones de cobertura' }
-  ];
-
   return (
     <section id="nosotros" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -68,14 +62,20 @@ const About: React.FC = () => {
           </div>
 
           {/* Stats */}
-          {/* <div className="grid md:grid-cols-3 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center bg-white p-8 rounded-lg shadow-sm">
-                <div className="text-4xl font-light text-emerald-600 mb-2">{stat.number}</div>
-                <div className="text-gray-600 font-medium">{stat.label}</div>
-              </div>
-            ))}
-          </div> */}
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center bg-white p-8 rounded-lg shadow-sm">
+              <div className="text-4xl font-light text-emerald-600 mb-2">10+</div>
+              <div className="text-gray-600 font-medium">Años de experiencia</div>
+            </div>
+            <div className="text-center bg-white p-8 rounded-lg shadow-sm">
+              <div className="text-4xl font-light text-emerald-600 mb-2">5</div>
+              <div className="text-gray-600 font-medium">Tipos de frutas</div>
+            </div>
+            <div className="text-center bg-white p-8 rounded-lg shadow-sm">
+              <div className="text-4xl font-light text-emerald-600 mb-2">3</div>
+              <div className="text-gray-600 font-medium">Regiones de cobertura</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
