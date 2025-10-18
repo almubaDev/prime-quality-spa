@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
         {/* Copyright */}
         <div className="border-t border-white/10 pt-6 text-center">
           <p className="text-sm text-gray-400">
-            © Octubre {new Date().getFullYear()} Prime Quality SpA. Todos los derechos reservados.
+            © Octubre {new Date().getFullYear()} Prime Quality. Todos los derechos reservados.
           </p>
         </div>
       </div>

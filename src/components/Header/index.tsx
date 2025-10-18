@@ -81,16 +81,6 @@ const Header: React.FC = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#1e3a5f] transition-all duration-300 group-hover:w-full"></span>
               </motion.button>
             ))}
-
-            {/* CTA Button */}
-            <motion.button
-              onClick={() => handleLinkClick('#contacto')}
-              className="bg-[#1e3a5f] text-white px-6 py-2.5 rounded-md hover:bg-[#2d5a8a] transition-all duration-300 font-medium text-sm shadow-md hover:shadow-lg cursor-pointer"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Solicitar Inspección
-            </motion.button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -136,15 +126,6 @@ const Header: React.FC = () => {
                     {link.text}
                   </motion.button>
                 ))}
-                <motion.button
-                  onClick={() => handleLinkClick('#contacto')}
-                  className="bg-[#1e3a5f] text-white py-3 px-4 rounded-md hover:bg-[#2d5a8a] transition-colors duration-200 font-medium mt-2 cursor-pointer"
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: navigationLinks.length * 0.05 }}
-                >
-                  Solicitar Inspección
-                </motion.button>
               </div>
             </motion.div>
           )}
