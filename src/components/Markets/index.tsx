@@ -69,7 +69,7 @@ const Markets: React.FC = () => {
             {/* Background Map Image */}
             <div className="absolute inset-0 rounded-2xl overflow-hidden">
               <Image
-                src="/images/IMG_Services/map.png"
+                src="/images/IMG_services/map.png"
                 alt="World Map"
                 fill
                 className="object-cover opacity-40"
